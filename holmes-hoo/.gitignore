@@ -7,3 +7,10 @@
 *.iml
 out
 gen
+target
+.classpath
+.project
+.settings
+.tomcatplugin
+work
+
