@@ -7,8 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Author keke
  * @Date 2020/7/19  11:28
  */
-@SpringBootApplication(scanBasePackages = "com.holmes")
-@MapperScan("com.holmes.mapper")
+@SpringBootApplication(scanBasePackages = "com.holmes.hoo")
+@MapperScan("com.holmes.hoo.mapper")
 public class HolmesServer {
 
     public static void main(String[] args) {
