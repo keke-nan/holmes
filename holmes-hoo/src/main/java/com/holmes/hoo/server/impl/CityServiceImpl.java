@@ -1,6 +1,5 @@
 package com.holmes.hoo.server.impl;
 
-import com.holmes.hoo.controller.CityController;
 import com.holmes.hoo.mapper.CityMapper;
 import com.holmes.hoo.server.CityService;
 import org.slf4j.Logger;
@@ -20,7 +19,7 @@ import java.util.Map;
 @Service
 public class CityServiceImpl implements CityService {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(CityController.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(CityServiceImpl.class);
 
     @Autowired
     private CityMapper cityMapper;
